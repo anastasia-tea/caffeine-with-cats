@@ -34,6 +34,7 @@ Cat pictures from (in order of appearance on page):
 
 -Cafe Menu
     -https://www.pexels.com/photo/a-cat-sitting-in-the-window-17027075/
+    -https://www.pexels.com/photo/cappuccino-in-cup-on-table-2907301/
 
 -Contact Us
     -https://www.pexels.com/photo/cat-sitting-on-a-rooftop-16993034/
