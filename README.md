@@ -11,14 +11,20 @@ as I'm getting back into it.
 Cat pictures from (in order of appearance on page):
 
 -Home Page
-https://www.pexels.com/photo/adorable-cat-resting-in-armchair-near-table-with-coffee-4556369/
+    -https://www.pexels.com/photo/adorable-cat-resting-in-armchair-near-table-with-coffee-4556369/
 
 -Profiles
+    -https://www.pexels.com/photo/a-cat-sitting-between-bags-16975677/
+    -https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/
 
 -Reservations
+    -https://www.pexels.com/photo/cat-lying-down-on-soil-16951113/
 
 -Donations
+    -https://www.pexels.com/photo/a-kitten-lying-on-a-field-16975484/
 
 -Cafe Menu
+    -https://www.pexels.com/photo/a-cat-sitting-in-the-window-17027075/
 
 -Contact Us
+    -https://www.pexels.com/photo/cat-sitting-on-a-rooftop-16993034/
