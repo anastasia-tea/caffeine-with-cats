@@ -16,6 +16,15 @@ Cat pictures from (in order of appearance on page):
 -Profiles
     -https://www.pexels.com/photo/a-cat-sitting-between-bags-16975677/
     -https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/
+    -https://www.pexels.com/photo/calico-cat-on-focus-photo-1404819/
+    -https://www.pexels.com/photo/ragdoll-cat-on-a-white-chair-384555/
+    -https://www.pexels.com/photo/brown-tabby-cat-2686914/
+    -https://www.pexels.com/photo/photo-of-a-gray-and-white-cat-2928158/
+    -https://www.pexels.com/photo/orange-cat-stretching-3643714/
+    -https://www.pexels.com/photo/tabby-cat-982314/
+    -https://www.pexels.com/photo/photo-of-british-shorthair-cat-sitting-on-grass-field-1521306/
+    -https://www.pexels.com/photo/close-up-shot-of-a-white-cat-sleeping-13722001/
+    -https://www.pexels.com/photo/russian-blue-kitten-on-brown-woven-basket-127027/
 
 -Reservations
     -https://www.pexels.com/photo/cat-lying-down-on-soil-16951113/
