@@ -8,7 +8,7 @@ as I'm getting back into it.
 
 --
 
-Cat pictures from (in order of appearance on page):
+Cat pictures from (in order of appearance on pages):
 
 -Home Page
     -https://www.pexels.com/photo/adorable-cat-resting-in-armchair-near-table-with-coffee-4556369/
