@@ -38,3 +38,9 @@ Cat pictures from (in order of appearance on pages):
 
 -Contact Us
     -https://www.pexels.com/photo/cat-sitting-on-a-rooftop-16993034/
+
+--
+
+Other References
+
+-http://phpgurukul.com/html5-form-validations-pattern-matching/
