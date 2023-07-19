@@ -39,7 +39,7 @@
 
     <script>
 
-        function hide() {
+        function show() {
             let form = document.getElementById("pay");
             if (form.style.display === "none") {
                 form.style.display === "block";
@@ -61,15 +61,23 @@
             <form class="donation">
 
                 <label for="donate">Donation</label>
-                <input type="number" id="donate" placeholder="$" required>
-    
-                <button onclick=hide()>Submit</button>
+                <div class="buttons" onclick=show()>
+                    <button onclick=show()>$5</button>
+                    <button>$10</button>
+                    <button>$20</button>
+                    <button>$50</button>
+                    <button>$100</button>
+                </div>
 
-                <div id="pay">
+                <div id="pay" style="display: none">
 
                     <p>testing</p>
         
                 </div>
+
+                <input type="text">
+
+                <button>Submit</button>
 
             </form>
 
