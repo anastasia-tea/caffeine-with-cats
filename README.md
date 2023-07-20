@@ -46,3 +46,6 @@ Other References
 -http://phpgurukul.com/html5-form-validations-pattern-matching/
 -https://www.w3schools.com/tags/att_input_type_datetime-local.asp
 -https://www.w3schools.com/html/html_links.asp
+-https://stackoverflow.com/questions/31914071/selecting-only-one-button-from-button-group
+-https://stackoverflow.com/questions/48534229/what-is-the-correct-input-type-for-credit-card-numbers
+-https://www.geeksforgeeks.org/how-to-check-whether-a-radio-button-is-selected-with-javascript/

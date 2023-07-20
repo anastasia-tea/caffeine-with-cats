@@ -40,12 +40,12 @@
     <script>
 
         function show() {
-            let form = document.getElementById("pay");
-            if (form.style.display === "none") {
-                form.style.display === "block";
-            } else {
-                form.style.display === "none";
-            }
+            document.getElementById("pay").style.display = "block";
+
+        }
+
+        function hide() {
+            document.getElementById("pay").style.display = "none";
         }
 
     </script>
@@ -58,28 +58,71 @@
 
         <div class="dollars">
 
-            <form class="donation">
+            <label for="donate">Donation</label>
+                <div class="buttons">
+                    
+                    <div id="five">
+                        <input type="radio" class="radio" id="radio5">
+                        <label for="radio5">$5</label>
+                    </div>
+                    <div id="ten">
+                        <input type="radio" class="radio" id="radio10">
+                        <label for="radio10">$10</label>
+                    </div>
+                    <div id="twenty">
+                        <input type="radio" class="radio" id="radio20">
+                        <label for="radio20">$20</label>
+                    </div>
+                    <div id="fifty">
+                        <input type="radio" class="radio" id="radio50">
+                        <label for="radio50">$50</label>
+                    </div>
+                    <div id="hundred">
+                        <input type="radio" class="radio" id="radio100">
+                        <label for="radio100">$100</label>
+                    </div>
 
-                <label for="donate">Donation</label>
-                <div class="buttons" onclick=show()>
-                    <button onclick=show()>$5</button>
-                    <button>$10</button>
-                    <button>$20</button>
-                    <button>$50</button>
-                    <button>$100</button>
                 </div>
 
-                <div id="pay" style="display: none">
+            <button onclick="show()">Donate</button>
 
-                    <p>testing</p>
+            <div id="pay" style="display: none">
+
+                <form class="donation">
+
+                    <h3>Donate</h3>
+
+                    <div id="account">
+                        <h5>Account</h5>
+
+                        <input type="text" id="name" pattern="^[A-Za-z\s]+" placeholder="Full Name" required>
+
+                        <input type="email" id="email" placeholder="Email" required>
+
+                    </div>
+
+                    <div id="payment">
+                        <h5>Payment Details</h5>
+
+                        <input type="text" id="name" pattern="^[A-Za-z\s]+" placeholder="Name on Card" required>
+
+                        <input type="tel" id="card" pattern="[0-9\s]{13,19}" placeholder="Card Number" required>
+
+                        <div>
+
+                            <input type="tel" id="cvc" pattern="[0-9\s]{3,4}" placeholder="Card CVC" required>
+
+                            <input type="month" id="expiration" required>
+
+                        </div>
+
+                    </div>
+
+                    <input type="submit" value="Pay Now">
+
+                </form>
         
-                </div>
-
-                <input type="text">
-
-                <button>Submit</button>
-
-            </form>
+            </div>
 
         </div>
 
