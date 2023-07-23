@@ -55,7 +55,7 @@
         <div class="info">
 
             <p>placeholder</p>
-            
+
         </div>
 
         <div class="dollars">
@@ -97,30 +97,36 @@
                     <div id="account">
                         <h5>Account</h5>
 
-                        <input type="text" id="name" pattern="^[A-Za-z\s]+" placeholder="Full Name" required>
+                        <label>Full Name</label>
+                        <input type="text" id="name" pattern="^[A-Za-z\s]+" required>
 
-                        <input type="email" id="email" placeholder="Email" required>
+                        <label>Email Address</label>
+                        <input type="email" id="email" required>
 
                     </div>
 
                     <div id="payment">
                         <h5>Payment Details</h5>
 
-                        <input type="text" id="name" pattern="^[A-Za-z\s]+" placeholder="Name on Card" required>
+                        <label>Name on Card</label>
+                        <input type="text" id="name" pattern="^[A-Za-z\s]+" required>
 
-                        <input type="tel" id="card" pattern="[0-9\s]{13,19}" placeholder="Card Number" required>
+                        <label>Card Number</label>
+                        <input type="tel" id="card" pattern="[0-9\s]{13,19}" required>
 
                         <div>
 
+                            <label>CVC</label>
                             <input type="tel" id="cvc" pattern="[0-9\s]{3,4}" placeholder="Card CVC" required>
 
+                            <label>Expiration Date</label>
                             <input type="month" id="expiration" required>
 
                         </div>
 
                     </div>
 
-                    <input type="submit" value="Pay Now">
+                    <input class="submit" type="submit" value="Pay Now">
 
                 </form>
         
