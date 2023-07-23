@@ -87,36 +87,44 @@
 
                 <form class="donation">
 
-                    <div id="account">
-                        <h4>Account</h4>
+                    <h4>Account</h4>
 
-                        <label>Full Name</label>
-                        <input type="text" id="name" pattern="^[A-Za-z\s]+" required>
-
-                        <label>Email Address</label>
-                        <input type="email" id="email" required>
-
+                    <div class="user">
+                        <div class="namediv">
+                            <label>Full Name</label>
+                            <input type="text" id="name" pattern="^[A-Za-z\s]+" placeholder="Ada Lovelace" required>
+                        </div>
+    
+                        <div class="emaildiv">
+                            <label>Email Address</label>
+                            <input type="email" id="email" placeholder="ada1210@email.com" required>
+                        </div>
                     </div>
 
-                    <div id="payment">
-                        <h4>Payment Details</h4>
+                    <h4>Payment Details</h4>
 
-                        <label>Name on Card</label>
-                        <input type="text" id="name" pattern="^[A-Za-z\s]+" required>
+                    <div class="card">
+                        <div class="carddiv">
+                            <label>Name on Card</label>
+                            <input type="text" id="name" pattern="^[A-Za-z\s]+" placeholder="Ada Lovelace" required>
+                        </div>
+    
+                        <div class="numberdiv">
+                            <label>Card Number</label>
+                            <input type="tel" id="card" pattern="[0-9\s]{13,19}" placeholder="1234 5678 9012 3456" required>
+                        </div>
+                    </div>
 
-                        <label>Card Number</label>
-                        <input type="tel" id="card" pattern="[0-9\s]{13,19}" required>
-
-                        <div>
-
+                    <div class="digits">
+                        <div class="cvcdiv">
                             <label>CVC</label>
-                            <input type="tel" id="cvc" pattern="[0-9\s]{3,4}" placeholder="Card CVC" required>
-
-                            <label>Expiration Date</label>
-                            <input type="month" id="expiration" required>
-
+                            <input type="tel" id="cvc" pattern="[0-9\s]{3,4}" placeholder="9876" required>
                         </div>
 
+                        <div class="expirationdiv">
+                            <label>Expiration Date</label>
+                            <input type="month" id="expiration" required>
+                        </div>
                     </div>
 
                     <input class="submit" type="submit" value="Pay Now">

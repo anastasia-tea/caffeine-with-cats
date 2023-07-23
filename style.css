@@ -173,7 +173,7 @@ h3 {
     padding: 0 6px;
     width: 400px;
     height: auto;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .catp .catpic {
@@ -273,7 +273,7 @@ input[type="month"]
     background-color: blue;
     color: white;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .buttons input[type="radio"] {
@@ -295,6 +295,54 @@ h4 {
     margin-top: 10px;
     padding: 20px;
 }
+
+#pay h3 {
+    text-align: center;
+}
+
+.donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user,
+.card,
+.digits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.namediv,
+.emaildiv,
+.carddiv,
+.numberdiv,
+.cvcdiv,
+.expirationdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.donation h4 {
+    text-align: center;
+}
+
+.digits {
+    display: flex;
+    flex-direction: row;
+}
+
+.digits input {
+    width: 170px;
+    min-width: 100px;
+}
+
 
 /* ----------------------------------------------------------------------------- */
 
