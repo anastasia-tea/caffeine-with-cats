@@ -56,3 +56,4 @@ Other References
 -https://stackoverflow.com/questions/8083430/how-to-change-the-font-and-font-size-of-an-html-input-tag
 -https://codepen.io/phusum/pen/VQrQqy
 -https://markheath.net/post/customize-radio-button-css
+-https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/#:~:text=Introduction%20to%20the%20JavaScript%20Radio%20Button&text=To%20create%20a%20radio%20button,is%20called%20a%20radio%20group.&text=In%20this%20example%2C%20all%20the,radio%20button%20at%20a%20time.

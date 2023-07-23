@@ -53,32 +53,32 @@
                 <div class="buttons">
                     
                     <div id="five">
-                        <input type="radio" class="radio" id="radio5" value="$5">
+                        <input name="number" type="radio" class="radio" id="radio5" value="$5">
                         <label for="radio5">$5</label>
                     </div>
                     <div id="ten">
-                        <input type="radio" class="radio" id="radio10" value="$10">
+                        <input name="number" type="radio" class="radio" id="radio10" value="$10">
                         <label for="radio10">$10</label>
                     </div>
                     <div id="twenty">
-                        <input type="radio" class="radio" id="radio20" value="$20">
+                        <input name="number" type="radio" class="radio" id="radio20" value="$20">
                         <label for="radio20">$20</label>
                     </div>
                     <div id="fifty">
-                        <input type="radio" class="radio" id="radio50" value="$50">
+                        <input name="number" type="radio" class="radio" id="radio50" value="$50">
                         <label for="radio50">$50</label>
                     </div>
                     <div id="hundred">
-                        <input type="radio" class="radio" id="radio100" value="$100">
+                        <input name="number" type="radio" class="radio" id="radio100" value="$100">
                         <label for="radio100">$100</label>
                     </div>
 
                 </div>
 
-            <button id="donating" class="submit" onclick="show()">Donate</button>
+            <button class="submit" onclick="show()">Donate</button>
 
-            <div class="selection">
-                
+            <div id="selection" onclick="show()" style="display: none"></div>
+
             </div>
 
             <div id="pay" style="display: none">
