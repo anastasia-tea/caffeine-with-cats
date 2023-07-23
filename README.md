@@ -53,3 +53,6 @@ Other References
 -https://stackoverflow.com/questions/48534229/what-is-the-correct-input-type-for-credit-card-numbers
 -https://www.geeksforgeeks.org/how-to-check-whether-a-radio-button-is-selected-with-javascript/
 -https://www.w3schools.com/howto/howto_css_image_text.asp
+-https://stackoverflow.com/questions/8083430/how-to-change-the-font-and-font-size-of-an-html-input-tag
+-https://codepen.io/phusum/pen/VQrQqy
+-https://markheath.net/post/customize-radio-button-css
