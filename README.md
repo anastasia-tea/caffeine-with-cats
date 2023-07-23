@@ -10,6 +10,9 @@ as I'm getting back into it.
 
 Cat pictures from (in order of appearance on pages):
 
+Logo
+    -https://www.freepik.com/premium-vector/cute-sleeping-cat-with-cup-logo-option-your-business_30374746.htm#query=cat%20coffee%20cartoon&position=10&from_view=search&track=ais
+
 -Home Page
     -https://www.pexels.com/photo/adorable-cat-resting-in-armchair-near-table-with-coffee-4556369/
 
