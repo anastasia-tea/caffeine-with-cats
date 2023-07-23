@@ -49,6 +49,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .heropic {
@@ -347,9 +348,46 @@ h4 {
 
 /* ----------------------------------------------------------------------------- */
 
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin: 20px 0;
+    padding: 0;
+    background-color: rgb(250, 218, 250);
+}
+
+.include {
+    background-color: rgb(250, 218, 250);
+    padding: 0 10px;
+
+}
+
+.menu,
+.include {
+    font-size: 18px;
+}
+
+.latte,
+.drinks {
+    padding: 0 40px;
+}
+
 .latte {
-    width: 200px;
+    width: 400px;
     height: auto;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.drinks {
+    text-align: center;
+}
+
+.drink {
+    font-weight: bold;
 }
 
 /* ----------------------------------------------------------------------------- */
@@ -361,10 +399,11 @@ h4 {
 .timeplace {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 60px;
+    width: 400px;
 }
 
 .location,
