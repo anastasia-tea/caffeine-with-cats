@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <title>Donations</title>
     <link rel="stylesheet" href="../style.css">
+    <script src="./script.js"></script>
 </head>
 
 <body>
@@ -37,19 +38,6 @@
 
     </div>
 
-    <script>
-
-        function show() {
-            document.getElementById("pay").style.display = "block";
-
-        }
-
-        function hide() {
-            document.getElementById("pay").style.display = "none";
-        }
-
-    </script>
-
     <div class="content">
 
         <div class="info">
@@ -65,29 +53,33 @@
                 <div class="buttons">
                     
                     <div id="five">
-                        <input type="radio" class="radio" id="radio5">
+                        <input type="radio" class="radio" id="radio5" value="$5">
                         <label for="radio5">$5</label>
                     </div>
                     <div id="ten">
-                        <input type="radio" class="radio" id="radio10">
+                        <input type="radio" class="radio" id="radio10" value="$10">
                         <label for="radio10">$10</label>
                     </div>
                     <div id="twenty">
-                        <input type="radio" class="radio" id="radio20">
+                        <input type="radio" class="radio" id="radio20" value="$20">
                         <label for="radio20">$20</label>
                     </div>
                     <div id="fifty">
-                        <input type="radio" class="radio" id="radio50">
+                        <input type="radio" class="radio" id="radio50" value="$50">
                         <label for="radio50">$50</label>
                     </div>
                     <div id="hundred">
-                        <input type="radio" class="radio" id="radio100">
+                        <input type="radio" class="radio" id="radio100" value="$100">
                         <label for="radio100">$100</label>
                     </div>
 
                 </div>
 
-            <button class="submit" onclick="show()">Donate</button>
+            <button id="donating" class="submit" onclick="show()">Donate</button>
+
+            <div class="selection">
+                
+            </div>
 
             <div id="pay" style="display: none">
 
